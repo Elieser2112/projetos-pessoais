@@ -1,4 +1,9 @@
-a=0
-b=0
+print("Olá, bem-vindo à calculadora!")
 
-print(f"Olá, os valores de a e b são {a} e {b}")
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+
+
+print("\nprocessando...")
+print(f'\nOs números digitados foram {a} e {b}.')
+print("\nObrigado por utilizar!")
